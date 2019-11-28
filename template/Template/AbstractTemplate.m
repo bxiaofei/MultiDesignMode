@@ -11,15 +11,18 @@
 @implementation AbstractTemplate
 
 - (void)printA {
-    
+    NSAssert(NO, @"The method %@ in %@ must be overridden.",
+    NSStringFromSelector(_cmd), NSStringFromClass([self class]));
 }
 
 - (void)printB {
-    
+    NSAssert(NO, @"The method %@ in %@ must be overridden.",
+    NSStringFromSelector(_cmd), NSStringFromClass([self class]));
 }
 
 - (void)printC {
-    
+    NSAssert(NO, @"The method %@ in %@ must be overridden.",
+    NSStringFromSelector(_cmd), NSStringFromClass([self class]));
 }
 
 - (void)print {

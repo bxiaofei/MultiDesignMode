@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view.
     
     /*
-     模板定义流程，子类实现具体实现
+     父类规定处理的流程，子类实现具体的处理
      模板不用 protocol 的原因是，模板可以实现一些方法，protocol 不能
      */
     ConcreteTemplate *template = [[ConcreteTemplate alloc] init];
