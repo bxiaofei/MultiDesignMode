@@ -20,9 +20,9 @@
 ```
 
 ### iterator:迭代器
-### adapter_extend:适配器（继承）
-### adapter_proxy:适配器（代理）
-### template:模板
-### factory:工厂模式（模板模式的扩展）
-
+### adapter_extend: 适配器（继承）
+### adapter_proxy: 适配器（代理）
+### template: 模板
+### factory: 工厂模式（模板模式的扩展）
+### singleton: 单例
 
