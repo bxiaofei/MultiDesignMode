@@ -25,4 +25,7 @@
 ### template: 模板
 ### factory: 工厂模式（模板模式的扩展）
 ### singleton: 单例
+### prototype: 原型
+
+
 
