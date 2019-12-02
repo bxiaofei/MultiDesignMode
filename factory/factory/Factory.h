@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Factory : NSObject
 
+//生成实例的方法，子类必须继承
 - (Product *)createProduct:(NSString *)owner;
 - (void)registProduct:(Product *)p;
 
